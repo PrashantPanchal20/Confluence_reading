@@ -27,6 +27,10 @@ body = page["body"]["storage"]["value"]
 
 tables = pd.read_html(body)
 print(tables)
-for i, table in enumerate(tables, start=1):
-    file_name = f'table_{i}.csv'
-    table.to_csv(file_name)
+# for i, table in enumerate(tables, start=1):
+#     file_name = f'table_{i}.csv'
+#     table.to_csv(file_name)
+
+print("=========================================================")
+defines = tables['Option'].to_string(index=False)
+print(defines)
