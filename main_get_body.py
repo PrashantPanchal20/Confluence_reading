@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append( '/home/..../lib/python2.7/site-packages' )
+sys.path.append( '.....................' )
 
 import pandas as pd
 import atlassian
@@ -15,7 +15,7 @@ url_page = 'https://'
 headers = {"Accept": "application/json"}
 
 space = '.....'
-title = 'VSIM Options Master Table'
+title = 'Page Title'
 username = "....."
 api_token = '.....'    #will create by profile > setting > apii_tokken > create new > copy > paste here
 page_id = "...."       #Profile > page information > copy it from url
